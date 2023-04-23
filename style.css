@@ -9,7 +9,7 @@ body{
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    background: url(/img/quino-al-mBQIfKlvowM-unsplash.jpg);
+    background: url(./img/quino-al-mBQIfKlvowM-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
