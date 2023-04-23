@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: url(/img/quino-al-mBQIfKlvowM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(241, 8, 8);
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    display: flex;
+    background-color:slateblue;
+    opacity: .8;
+    color: white;
+    width: 100px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0, 0, 0.9);
+}
+.clock .text{
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: darkblue;
+    opacity: 0.8;
+    letter-spacing: 2px;
+}
+.clock #ampm{
+   position: absolute;
+   bottom: 0;
+   width: 60px;
+   height: 30px;
+   font-size: 20px;
+   background-color: green;
+}
